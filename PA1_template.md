@@ -228,3 +228,12 @@ ggplot(data = interval.steps.imputed, aes(x = interval, y = avgsteps)) +
 ```
 
 ![](PA1_template_files/figure-html/unnamed-chunk-12-1.png) 
+
+Weekends:   
+* have a similar peak activity time in the morning (8am - 9am)   
+* have fewer steps during this peak period, on average  
+* have a split peak  
+* the first point of increased activity starts later in the day (sleeping later on weekends)  
+* the average activity level throughout the day is higher, suggesting a somewhat sedentary desk job during the week and rather active weekends.  
+* Activity stretches later in the day on weekends with a local peak around 8pm (20:00)  
+
